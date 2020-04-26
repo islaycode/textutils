@@ -1,0 +1,17 @@
+<h1>Counted Successfully!</h1>
+
+<h1>Your Text</h1>
+{{fulltext}}
+
+<br><br>
+
+<h1>Total words = {{words}}</h1>
+
+<br><br>
+
+{% for words,value in dict %}
+
+{{ words }} - {{ value }}
+<br>
+
+{%endfor%}
